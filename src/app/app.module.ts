@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { WebSocketService } from "angular2-websocket-service/lib/index.service";
+import { WebSocketService } from "angular2-websocket-service";
 import { StockService } from "./stock.service";
 
 
