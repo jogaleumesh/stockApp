@@ -1,0 +1,45 @@
+.navbar-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    margin-top:50px
+}
+
+.table{
+    margin: auto;
+}
+
+.missing{
+    background: #03c95d;
+    border-radius: 5px;
+}
+
+.lowprice{
+    background: #ed0000;
+    color: #ffffff !important;
+    border-radius: 5px;
+}
+
+tbody tr td{
+    padding: 10px 5px;
+}
+
+tbody tr td:first-child{
+    color: #1e1f1f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr td:nth-child(2){
+    color: #1e1f1f;
+    font-weight: bold;
+}
+
+@media (min-width:768px){
+    table{
+        width: 50%;
+    }
+}

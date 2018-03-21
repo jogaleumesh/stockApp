@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { WebSocketService } from "angular2-websocket-service/lib/index.service";
+import { StockService } from "./stock.service";
 
 
 @NgModule({
@@ -12,7 +14,10 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    WebSocketService,
+    StockService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
